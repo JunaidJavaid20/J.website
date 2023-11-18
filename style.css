@@ -1,0 +1,183 @@
+.first-slider{
+    color: #000000;
+    background-color: #FFE8E8;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.main{
+    width: 100%;
+}
+.lock {
+    background: gray;
+    border-radius: 3px;
+    width: 19px;
+    height: 15px;
+    margin-left: 700px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .lock:before {
+    content: "";
+    position: absolute;
+    border:3px solid gray;
+    top: -14px;
+    left: 2.3px;
+    width: 15px;
+    height: 27px;
+    border-radius: 35px 35px 0px 0px;
+  }
+  .second-main{
+    color: initial;
+    border-bottom: 1px solid #fff;
+    background-color: #F3F3F3 !important;
+    display: flex;
+    padding-top: 15px;
+    position: relative;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+  }
+  .list{
+    list-style: none;
+    display: flex;
+  }
+  .list li{
+    padding: 20px;
+    cursor: pointer;
+  }
+  .first-navLeft{
+    display: flex;
+
+  }
+  .first-navLeft p{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 20px;
+  }
+ #search-btn{
+    margin-left: 30px;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+ }
+ .j{
+    margin-top: 0;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Georgia, serif;
+ }
+ #brand{
+    background-color: #F3F3F3 !important;
+ }
+ #brand-nav{
+    font-size: 18px;
+ }
+ #brand-nav1{
+    color: red;
+ }
+ #brandOne{
+    margin-top: 40px;
+ }
+ #shop{
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ #shop:hover{
+    color: red;
+ }
+ .container-three{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+
+ }
+ .container-four{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+ }
+ .container-five{
+    margin-top: 80px;
+ }
+ .container-five-child{
+    width: 70%;
+    margin-left: 340px;
+ }
+ .container-five-child1{
+    width: 70%;
+    margin-left: 70px;
+ }
+ .container {
+    position: relative;
+    width: 50%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container:hover .image {
+    opacity: 0.3;
+  }
+
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  .text {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .container-six{
+    margin-top: 70px;
+    text-align: center;
+  }
+  .boysAndGirl{
+    font-size: 90px;
+  }
+  .footer{
+    background-color: #232323;
+    color: white;
+    width: 90%;
+    height: 200px;
+    margin-top: 70px; 
+     padding: 20px;
+  }
+  .btn1{
+    background-color: #232323;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  #inp{
+    border-radius: 9px;
+  }
